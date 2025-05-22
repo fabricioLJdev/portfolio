@@ -1,0 +1,26 @@
+<!--
+    01. primero execute o comando no terminal "npx create-react-app (nomedoprojeto) --template typescript"
+    02. use o editor config, para ter um codígo bem organizado. crie no projeto um arquivo chamado ".editorconfig", e dentro dele digíte "root = true"
+    03. pegue o arquivo ".eslintrc.json" e cole em seu novo projeto e em seguida digite o comando "npx eslint"
+    04. no terminal digíte "npm install --save-dev eslint-plugin-prettier eslint-config-prettier"
+    05. no terminal digite "npm install --save-dev --save-exact prettier"
+    06. crie um arquivo ".prettierrc" para faze a config.
+    07. dentro do arquivo ".prettierrc", digite:
+
+    {
+      "traillingComma": "none",
+      "semi": false,
+      "singleQuote": true
+    }
+
+    08. faça config do prettier com eslintrc. dentro do arquivo .eslintrc.json em "extends", digite "plugin:prettier/recommended" ->
+    09. crie um pasta .vscode e crie um arquivo "settings.json" digite:
+
+    {
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+
+}
+    10. vai o terminal e instale o styled components "npm install --save-dev styled-components" e "npm i --save-dev @types/styled-components"
