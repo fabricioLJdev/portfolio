@@ -8,12 +8,11 @@ import { lightTheme, darkTheme } from './styles/themes'
 import { useState } from 'react'
 
 function App() {
-  const [temaEscuro, setTemaEscuro] = useState(false);
+  const [temaEscuro, setTemaEscuro] = useState(false)
 
   const alternarTema = () => {
-    setTemaEscuro(!temaEscuro),
-  },
-
+    setTemaEscuro(!temaEscuro)
+  }
 
   return (
     <ThemeProvider theme={temaEscuro ? darkTheme : lightTheme}>
