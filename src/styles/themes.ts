@@ -13,3 +13,11 @@ export const darkTheme = {
   corDeFundoBotao: '#333',
   corDaBorda: '#444',
 }
+
+export type Theme = {
+  corPrincipal: string
+  corSecundaria: string
+  corDeFundo: string
+  corDeFundoBotao: string
+  corDaBorda: string
+}

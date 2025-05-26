@@ -11,12 +11,13 @@ function App() {
   const [temaEscuro, setTemaEscuro] = useState(false)
 
   const alternarTema = () => {
-    setTemaEscuro(!temaEscuro)
+    setTemaEscuro(temaEscuro)
   }
 
   return (
     <ThemeProvider theme={temaEscuro ? darkTheme : lightTheme}>
       <EstiloGlobal />
+      <button onClick={alternarTema}>Alternar tema</button>
       <Container>
         <Sidebar />
         <main>
