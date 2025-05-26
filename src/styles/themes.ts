@@ -2,15 +2,15 @@ export const lightTheme = {
   corPrincipal: '#282a35',
   corSecundaria: '#949494',
   corDeFundo: '#fff',
-  corDeFundoBotao: '#e0e0e0',
+  corDeFundoBotao: '#4476bf',
   corDaBorda: '#ccc',
 }
 
 export const darkTheme = {
   corPrincipal: '#ffffff',
-  corSecundaria: '#aaaaaa',
+  corSecundaria: '#eee',
   corDeFundo: '#121212',
-  corDeFundoBotao: '#333',
+  corDeFundoBotao: '#fff',
   corDaBorda: '#444',
 }
 
